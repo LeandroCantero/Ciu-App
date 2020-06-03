@@ -65,6 +65,13 @@ async function getSolicitudChequeada() {
 
 
 
+//BotónNuevo
+const botonNuevo = document.getElementById("Nueva");
+botonNuevo.addEventListener("click", async (e)=> {
+    e.preventDefault();
+    document.location.href="solicitud_nueva.html"
+})
+
 const botonModificar = document.getElementById("Modificar");
 botonModificar.addEventListener("click",async (e)=> {
     e.preventDefault();
